@@ -36,7 +36,7 @@ export default function SocialFeed() {
   const [posts, setPosts] = useState<Post[]>([
     {
       id: "1",
-      user: { name: "Sarah Chen", username: "@sarahc", avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2025-08-18-23-02-19.jpg-bSUZxytr2FBwgGhXv6K3m8ur7fN4Rq.jpeg", level: 42, title: "Hydration Hero" },
+      user: { name: "Sarah Chen", username: "@sarahc", avatar: "excited.jpg", level: 42, title: "Hydration Hero" },
       content: "Just completed the 7-Day Water Challenge! Feeling amazing!",
       achievement: { type: "challenge", name: "7-Day Water Challenge", icon: <Droplets className="h-4 w-4" />, color: "text-blue-500" },
       timestamp: "2h ago",
@@ -93,7 +93,7 @@ export default function SocialFeed() {
     if (!newPost.trim()) return
     const post: Post = {
       id: Date.now().toString(),
-      user: { name: "You", username: "@you", avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2025-08-18-23-03-12.jpg-wqSWfuHHcBOqncaeQf9UOptCXaLLBz.jpeg", level: 25 },
+      user: { name: "You", username: "@you", avatar: "happy.jpg", level: 25 },
       content: newPost,
       timestamp: "now",
       likes: 0,
@@ -113,7 +113,7 @@ export default function SocialFeed() {
       <Card>
         <CardHeader className="flex items-center gap-3">
           <Avatar>
-            <AvatarImage src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2025-08-18-23-03-12.jpg-wqSWfuHHcBOqncaeQf9UOptCXaLLBz.jpeg" />
+            <AvatarImage src="happy.jpg" />
             <AvatarFallback>You</AvatarFallback>
           </Avatar>
           <div>

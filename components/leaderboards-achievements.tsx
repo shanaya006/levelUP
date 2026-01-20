@@ -75,8 +75,7 @@ export default function LeaderboardsAchievements() {
       id: "1",
       name: "Sarah Chen",
       username: "sarahc",
-      avatar:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2025-08-18-23-02-19.jpg-bSUZxytr2FBwgGhXv6K3m8ur7fN4Rq.jpeg",
+      avatar:"/excited.jpg",
       level: 42,
       weeklyPoints: 1250,
       totalXP: 8400,
@@ -89,8 +88,7 @@ export default function LeaderboardsAchievements() {
       id: "2",
       name: "You",
       username: "you",
-      avatar:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2025-08-18-23-03-12.jpg-wqSWfuHHcBOqncaeQf9UOptCXaLLBz.jpeg",
+      avatar:"happy.jpg",
       level: 25,
       weeklyPoints: 890,
       totalXP: 3750,

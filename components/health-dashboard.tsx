@@ -48,7 +48,7 @@ export default function HealthDashboard() {
     {
       id: "steps",
       title: "Steps",
-      current: 7842,
+      current: 8560,
       goal: 10000,
       unit: "steps",
       icon: <Footprints className="h-6 w-6" />,
@@ -58,7 +58,7 @@ export default function HealthDashboard() {
     {
       id: "water",
       title: "Water Intake",
-      current: 6,
+      current: 7,
       goal: 8,
       unit: "glasses",
       icon: <Droplets className="h-6 w-6 text-blue-800" />,
@@ -68,7 +68,7 @@ export default function HealthDashboard() {
     {
       id: "screen",
       title: "Screen Time",
-      current: 4.2,
+      current: 5.5,
       goal: 6,
       unit: "hours",
       icon: <Smartphone className="h-6 w-6 text-white-600" />,
@@ -78,7 +78,7 @@ export default function HealthDashboard() {
     {
       id: "sleep",
       title: "Sleep",
-      current: 7.5,
+      current: 6,
       goal: 8,
       unit: "hours",
       icon: <Moon className="h-6 w-6 text-gray-700" />,
@@ -143,7 +143,7 @@ export default function HealthDashboard() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent animate-pulse" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-foreground">levelUP</h1>
+                <h1 className="text-2xl font-bold text-foreground">HabMirror</h1>
                 <p className="text-muted-foreground">Reflects back your lifestyle</p>
               </div>
             </div>

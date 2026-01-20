@@ -37,8 +37,7 @@ export default function FriendsManager() {
       id: "1",
       name: "Sarah Chen",
       username: "sarahc",
-      avatar:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PHOTO-2025-08-18-23-02-19.jpg-bSUZxytr2FBwgGhXv6K3m8ur7fN4Rq.jpeg",
+      avatar: "excited.jpg",
       level: 42,
       title: "Hydration Hero",
       streak: 15,
